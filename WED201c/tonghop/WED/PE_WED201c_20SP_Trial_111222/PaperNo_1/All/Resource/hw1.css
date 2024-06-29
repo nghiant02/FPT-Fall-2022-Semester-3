@@ -1,0 +1,18 @@
+aside{
+    display: none;
+}
+header{
+    text-align: center;
+    background-color: #ccc;
+}
+header h1{
+    color: #fff00f;
+}
+header nav a{
+    background-color: rgb(143, 141, 143);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main{
+    background-color: #ccc;
+}

@@ -1,0 +1,30 @@
+.left{
+    display: none;;
+}
+.right{
+    background-color: rgb(197, 197, 197);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+}
+header{
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+
+}
+h2{
+    text-transform: uppercase;
+    color: gray;
+}
+a{
+    color: black;
+    background-color: gray;
+}
+table{
+    margin: auto;
+}
+th{
+    background-color:rgb(243, 243, 114);
+}

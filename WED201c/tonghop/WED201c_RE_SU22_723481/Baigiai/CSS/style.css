@@ -1,0 +1,345 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    cursor: default;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#noselect {
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0px 20px 0px 0px;
+}
+
+/**/
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    margin-top: 30px;
+    color: orange;
+    text-align: center;
+}
+
+.imge {
+    width: 100px;
+    height: auto;
+}
+
+.search {
+    margin-top: 30px;
+}
+
+.btn {
+    background: black;
+    color: white;
+}
+
+.bannerimg {
+    display: flex;
+}
+
+img {
+    width: 50%;
+}
+
+.menu {
+    background-color: #2cc8c6;
+    height: 80px;
+}
+
+.ultext {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 35px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none
+}
+
+.saleof {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #2bb8c0;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.salecard {
+    display: flex;
+}
+
+.card {
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+    margin: 0 50px;
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 25%), 10px 10px 10px rgb(0 0 0 / 22%);
+    border-radius: 5px;
+}
+
+.imgcard {
+    width: 100%;
+}
+
+.saletext {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.textcard {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price {
+    margin: 40px;
+    color: red;
+}
+
+.price del:first-child {
+    color: black;
+}
+
+.buynow {
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    background: orange;
+    margin-left: 150px;
+}
+
+.textbtn {
+    position: relative;
+    top: 15px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: medium;
+    font-weight: bolder;
+    color: orange;
+}
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 200px;
+    height: 60px;
+    font-size: medium;
+    font-weight: 500px;
+  }
+  
+.container {
+    margin-left: 500px;
+}
+
+.col-25 {
+    float: left;
+    width: 150px;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 650px;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.rowbtn{
+    display: flex;
+    content: "";
+    margin-left: 300px;
+}
+.btn{
+ margin: 0px 25px;
+}
+.footer{
+    height: 150px;
+    background-color: #2bb8c0;
+}
+.footer .textft:first-child{
+    margin-top: 0px;
+}
+.textft{
+    position: relative;
+    top: 25px;
+    color: white;
+    text-align: center;
+    margin:25px;
+}

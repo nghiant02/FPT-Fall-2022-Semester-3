@@ -1,0 +1,27 @@
+Empty list.
+
+Add 5 employees.
+Adding the employee 1:
+Code:Name:Salary:Adding the employee 2:
+Code:Name:Salary:Adding the employee 3:
+Code:Name:Salary:Adding the employee 4:
+Code:Name:Salary:Adding the employee 5:
+Code:Name:Salary:
+
+Test search operations:
+Searched code:This employee does not exist!
+Searched code:E002, MECHEL, 400
+
+The list in ascending order:
+E002, MECHEL, 400
+E005, HELLEN, 200
+E007, YAK, 180
+E009, YAN CAN COOK, 240
+E140, MINH, 1100
+
+The list in descending order:
+E140, MINH, 1100
+E009, YAN CAN COOK, 240
+E007, YAK, 180
+E005, HELLEN, 200
+E002, MECHEL, 400

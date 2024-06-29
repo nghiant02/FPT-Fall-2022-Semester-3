@@ -1,0 +1,117 @@
+.menu {
+    display: flex;
+    list-style: none;
+    /* kiểu hiển thị danh sách */
+        
+}
+.header {
+    display: flex;
+    align-items: center;
+    /* căn giữa  */
+    justify-content: space-around;
+}
+.logo img {
+    padding-right: 200px ;
+    width: 130px;
+    height: 130px;
+}
+li a {
+    text-decoration:none;
+    /* kiểu chữ gạch chân , in đậm , nghiêng,... */
+    padding-right:40px;
+    box-sizing: border-box;
+    /* Đôi khi bạn muốn thiết lập border, padding cho phần tử và không muốn làm phần tử tăng kích thước,
+     điều này hoàn toàn khả thi nếu bạn sử dụng CSS box-sizing:border-box.
+     Khi đó phần tử này sẽ được coi là một "Border-Box". */
+    
+}
+button {
+    background-color: orange;
+    border: 0px;
+    padding: 4px;
+    cursor: pointer;
+    /* kiểu con trỏ chuột */
+}
+
+.header__contents{
+    margin-bottom: 50px;
+}
+
+.banner{
+    display: flex;
+}
+
+.banner img{
+    width: 50%; 
+}
+
+.title{
+    text-align: center;
+    color: red;
+}
+
+.bestsel{
+    display: flex;
+}
+
+.bestsel__items{
+    width: 50%;
+}
+
+.bestsel__items img{
+    width: 100%;
+}
+h2{
+    color:rgb(0, 102, 255);
+}
+span {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+.product {
+    display: flex;
+
+}
+.product_item {
+    width: 25%;
+    text-align: center;
+    margin: 10px;
+    border: 1px 1px 0 1px solid white;
+    /* Bo viền */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+    /*Tạo đổ bóng*/
+    position: relative;
+}
+.product_item img {
+    width: 80%;
+    /* Hiển thị hình ảnh bằng bao nhiêu % ảnh gốc */
+    padding-bottom: 30px;
+}
+h3 {
+    background-color: rgb(255, 132, 0);
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}
+.product_title{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.img_3 {
+    width: 100%;
+}
+.img_3 img {
+    width: 75.7%;
+}
+.footer{
+    background-color: orange;
+    text-align: center;
+    /* căn giữa */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px ;
+
+}

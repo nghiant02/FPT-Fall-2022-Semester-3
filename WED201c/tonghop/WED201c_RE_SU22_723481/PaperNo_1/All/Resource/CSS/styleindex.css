@@ -1,0 +1,153 @@
+.header_title {
+    color: orange;
+    font-style: italic;
+    margin-right: 400px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo img {
+    padding-right: 400px;
+    width: 130px;
+    height: 130px;
+}
+
+button {
+    background-color: black;
+    border: 0px;
+    padding: 4px;
+    color: white;
+}
+
+.banner {
+    display: flex;
+
+}
+
+.banner img {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 640px;
+    background-color: rgb(31, 186, 214);
+    width: 99%;
+    height: 60px;
+    margin: 0;
+    align-items: center;
+
+}
+
+li a {
+    text-decoration: none;
+    padding-right: 40px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+
+}
+
+.sale {
+    text-align: center;
+    color: rgb(19, 186, 186);
+    margin: 30px 0;
+}
+
+.product {
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+.buy {
+    text-align: center;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+.price {
+    text-align: center;
+}
+
+del {
+    color: rgb(197, 195, 195);
+}
+
+.product_item {
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    max-width: 280px;
+}
+
+.product_item img {
+    width: 75%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feedback {
+    color: rgb(19, 186, 186);
+    text-align: center;
+
+}
+
+.product_item p {
+    color: red;
+}
+
+.content_feedback {
+    margin: 70px 0;
+
+
+}
+
+.info {
+    color: orange;
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.order {
+    margin: 100px;
+    background-color: orangered;
+    color: white;
+}
+.cancer {
+    margin: 100px;
+    
+    background-color: orangered;
+    color: white;
+}
+
+
+
+.footer {
+    background-color: rgb(31, 186, 214);
+    text-align: center;
+
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,99 @@
+.row:nth-child(1){
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.row:nth-child(1) .navbar .container-fluid{
+    display:flex
+}
+.navbar-brand img{
+    width: 100px; 
+    height: auto;
+    position: relative;
+    top: -25px;
+}
+.navbar-collapse{
+    margin-left: 2%;
+}
+.collapse .navbar-nav{
+    margin-left: 50px;
+}
+
+.navbar-right {
+    position: absolute;right:10px;
+}
+
+
+.row:nth-child(2){
+    padding: 20px; display: flex;
+}
+.row:nth-child(2) div h1{
+    color: rgb(255, 136, 0)
+}
+.row:nth-child(2) div:nth-child(1){
+    width: 1500px;
+}
+.row:nth-child(2) div:nth-child(1) div{
+    margin-left: 25%;
+}
+.row:nth-child(2) div:nth-child(1) p{
+    font-size: 30px;
+}
+.row:nth-child(2) div:nth-child(2){
+    background-color: rgba(179, 255, 255, 0.507);
+    width: 400px;
+}
+
+.row:nth-child(2) div:nth-child(2) .container-row{
+    border-bottom:5px solid aqua ; color: rgb(255, 136, 0);
+
+}
+.row:nth-child(2) div:nth-child(2) div{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.row:nth-child(2) div:nth-child(2) div img{
+    width: 150px;height: 150px;border-radius: 100%;
+}
+.row:nth-child(3){
+    padding: 25px;
+}
+.row:nth-child(3) div h1{
+    text-align: center;
+    color: rgb(255, 136, 0)
+}
+.row:nth-child(3) div p{
+    font-size: 25px;
+}
+.row:nth-child(3) div div img{
+    width: 800px;
+}
+.row:nth-child(3) div div{
+    padding: 25px;
+    display: flex;
+    margin-left: 2%;
+}
+
+/* a */
+.row:nth-child(4) div h1{
+    text-align: center;
+    color: rgb(255, 136, 0)
+}
+.row:nth-child(4) div p{
+    font-size: 25px;
+}
+.row:nth-child(4) div div img{
+    width: 800px;
+}
+.row:nth-child(4) div {
+    padding: 20px;
+}
+.row:nth-child(4) div div {
+    margin-left: 25%;
+}
+
+.row:nth-child(5){
+    background-color: aquamarine;
+    text-align: center;
+    color: white;
+}
